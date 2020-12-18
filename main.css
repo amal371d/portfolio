@@ -10,3 +10,15 @@
 body {
     margin: 0;
 }
+
+header {
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {}
+
+a:hover {}
