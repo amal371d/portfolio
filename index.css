@@ -31,6 +31,8 @@
 #stjerne1_sprite {
     background-image: url(svg/stjerne1.svg);
     background-size: cover;
+    height: 12vw;
+    height: 12vw;
 }
 
 #stjerne2_sprite {
