@@ -33,6 +33,8 @@
     background-size: cover;
     height: 12vw;
     height: 12vw;
+    top: 20vw;
+    left: 20vw;
 }
 
 #stjerne2_sprite {
@@ -54,3 +56,5 @@
     background-image: url(svg/stjerne1.svg);
     background-size: cover;
 }
+
+/*----pos----*/
