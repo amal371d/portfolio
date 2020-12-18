@@ -12,9 +12,10 @@ body {
 }
 
 nav {
-    text-align: center;
+    text-align: end;
     font-family: 'Jura', sans-serif;
-    padding-top: 40px;
+    padding-top: 50px;
+    padding-left: 35px;
 }
 
 a {
