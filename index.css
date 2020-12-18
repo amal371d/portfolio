@@ -13,4 +13,9 @@
     max-width: none;
 }
 
-/*----stjerner----*/
+/*----logo----*/
+#logo {
+    height: 40px;
+    padding-left: 41px;
+    position: fixed;
+}
