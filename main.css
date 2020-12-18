@@ -14,13 +14,13 @@ body {
 nav {
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Jura', sans-serif;
 }
 
 a:link {
     color: white;
     text-decoration: none;
     text-align: center;
-
 }
 
 a:visited {}
