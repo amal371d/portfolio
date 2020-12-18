@@ -11,12 +11,16 @@ body {
     margin: 0;
 }
 
-header {
-    color: white;
+nav {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 a:link {
     color: white;
+    text-decoration: none;
+    text-align: center;
+
 }
 
 a:visited {}
