@@ -1,8 +1,13 @@
+#forside {
+    position: relative;
+    width: 100vw;
+    height: 56.25vw;
+}
+
 #baggrund {
     width: 100%;
     height: 100%;
     position: absolute;
     background-image: url(svg/background.svg);
     background-size: 100%;
-    pointer-events: none;
 }
