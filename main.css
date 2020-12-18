@@ -12,9 +12,13 @@ body {
 }
 
 nav {
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+}
+
+a {
     padding-left: 10px;
     padding-right: 10px;
-    font-family: 'Jura', sans-serif;
 }
 
 a:link {
