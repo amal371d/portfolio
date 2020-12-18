@@ -23,6 +23,10 @@ a:link {
     text-align: center;
 }
 
-a:visited {}
+a:visited {
+    color: white;
+}
 
-a:hover {}
+a:hover {
+    color: #E37C6A;
+}
