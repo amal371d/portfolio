@@ -32,7 +32,7 @@
     background-image: url(svg/stjerne1.svg);
     background-size: cover;
     height: 12vw;
-    height: 12vw;
+    width: 12vw;
     top: 20vw;
     left: 20vw;
 }
