@@ -30,3 +30,7 @@ a:visited {
 a:hover {
     color: #E37C6A;
 }
+
+a:active {
+    font-weight: 700;
+}
