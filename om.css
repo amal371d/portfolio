@@ -10,3 +10,17 @@ main {
     padding-left: 25px;
     padding-right: 25px;
 }
+
+#om_mig .sectionwrapper h1 {
+    padding-bottom: 12px;
+}
+
+#om_mig .sectionwrapper p {
+    line-height: 1.5;
+}
+
+@media (min-width:800px) {
+    #om_mig .sectionwrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
