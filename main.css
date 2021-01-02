@@ -21,6 +21,10 @@ h1 {
     text-align: center;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 img {
     width: 100%;
 }
@@ -88,4 +92,5 @@ footer {
 footer p {
     color: white;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
