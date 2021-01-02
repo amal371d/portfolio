@@ -67,3 +67,16 @@ a:active {
     position: relative;
     padding-bottom: 50px;
 }
+
+/*footer*/
+
+footer {
+    background-color: #050F23;
+    position: relative;
+    padding: 5px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
