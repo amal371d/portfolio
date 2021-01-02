@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-#section {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 body {
     margin: 0;
 }
@@ -17,6 +12,14 @@ nav {
     padding-top: 50px;
     padding-left: 35px;
     padding-right: 20px;
+}
+
+main {
+    max-width: 1150px;
+}
+
+.sectionwrapper {
+    margin: 0 auto;
 }
 
 a {

@@ -1,26 +1,41 @@
-.sectionwrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 5px;
+#portfolio_menu .sectionwrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 80px;
+    position: relative;
+    width: 100%;
 }
 
-.ux {
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
+@media (min-width:800px) {
+    #portfolio_menu .sectionwrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 
-.web {
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
+    .ux {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
 
-.animation {
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
+    .web {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
 
-.indhold {
-    grid-column: 2/3;
-    grid-row: 2/3;
+    .animation {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .indhold {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
 }
