@@ -21,6 +21,10 @@ h1 {
     text-align: center;
 }
 
+img {
+    width: 100%;
+}
+
 main {
     max-width: 1000px;
     display: block;
