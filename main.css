@@ -22,11 +22,9 @@ h1 {
 }
 
 main {
-    max-width: 1150px;
-}
-
-.sectionwrapper {
-    margin: 0 auto;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
 }
 
 a {

@@ -1,21 +1,44 @@
 #portfolio_menu .sectionwrapper {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     position: relative;
     width: 100%;
+/*
+    margin-left: 20px;
+    margin-right: 20px;
+*/
 }
 
-@media (min-width:800px) {
+main {
+    margin: auto;
+}
+
+img {
+    position: relative;
+}
+
+.web {
+    margin-bottom: 10px;
+}
+
+.ux {
+    margin-bottom: 10px;
+}
+
+.animation {
+    margin-bottom: 10px;
+}
+
+.indhold {
+    margin-bottom: 10px;
+}
+
+@media (min-width:900px) {
     #portfolio_menu .sectionwrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-gap: 20px;
-        margin-left: 15px;
-        margin-right: 15px;
     }
 
     .ux {
