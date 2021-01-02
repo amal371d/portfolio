@@ -4,3 +4,23 @@
     grid-template-rows: 1fr 1fr;
     gap: 5px;
 }
+
+.ux {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.web {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.animation {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.indhold {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
