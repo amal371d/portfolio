@@ -11,6 +11,119 @@ main {
     margin: auto;
 }
 
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle_ux {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.middle_web {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.middle_animation {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.middle_indhold {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.col_ux:hover .image {
+    opacity: 0.5;
+}
+
+.col_uxr:hover .middle {
+    opacity: 1;
+}
+
+.col_web:hover .image {
+    opacity: 0.5;
+}
+
+.col_web:hover .middle {
+    opacity: 1;
+}
+
+.col_animation:hover .image {
+    opacity: 0.5;
+}
+
+.col_animation:hover .middle {
+    opacity: 1;
+}
+
+.col_indhold:hover .image {
+    opacity: 0.5;
+}
+
+.col_indhold:hover .middle {
+    opacity: 1;
+}
+
+.text1 {
+    background-color: #050F23;
+    color: white;
+    font-size: 16px;
+/*    padding: 16px 32px;*/
+}
+
+.text2 {
+    background-color: #050F23;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.text3 {
+    background-color: #050F23;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.text4 {
+    background-color: #050F23;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
 img {
     position: relative;
 }
