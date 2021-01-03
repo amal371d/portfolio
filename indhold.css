@@ -1,0 +1,18 @@
+p {
+    line-height: 1.5;
+}
+
+@media (min-width:900px) {
+    #opgave_05_03_01 .sectionwrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #opgave_05_03_01 .sectionwrapper p {
+        grid-column: 1/2;
+    }
+
+    #opgave_05_03_01 .sectionwrapper img {
+        grid-column: 2/3;
+    }
+}

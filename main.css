@@ -32,7 +32,8 @@ main h1 {
 }
 
 p,
-h2 {
+h2,
+h3 {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -109,6 +110,11 @@ footer p {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 0.75rem;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(-10px);
 }
 
 @media (min-width:900px) {
