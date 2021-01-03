@@ -21,7 +21,8 @@ h1 {
     text-align: center;
 }
 
-p {
+p,
+h2 {
     font-family: 'Roboto', sans-serif;
 }
 
