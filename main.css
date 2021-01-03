@@ -16,9 +16,19 @@ nav {
     padding-right: 20px;
 }
 
+main {
+    padding: 40px 20px 80px 20px;
+    position: relative;
+    width: 100%;
+}
+
 h1 {
     font-family: 'Jura', sans-serif;
     text-align: center;
+}
+
+main h1 {
+    padding-bottom: 20px;
 }
 
 p,
@@ -31,7 +41,7 @@ img {
 }
 
 main {
-    max-width: 950px;
+    max-width: 1100px;
     display: block;
     margin: auto;
 }
@@ -63,6 +73,7 @@ a:active {
 /*logo*/
 
 #logo {
+    display: block;
     padding-left: 41px;
     position: fixed;
     padding-top: 25px;
@@ -97,4 +108,11 @@ footer p {
     color: white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+}
+
+@media (min-width:900px) {
+    footer p {
+        font-size: 0.85rem;
+    }
 }

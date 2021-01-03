@@ -2,15 +2,6 @@ main {
     margin: auto;
 }
 
-#om_mig .sectionwrapper {
-    padding-top: 50px;
-    padding-bottom: 80px;
-    position: relative;
-    width: 100%;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
 #om_mig .sectionwrapper h1 {
     padding-bottom: 12px;
 }
