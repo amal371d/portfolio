@@ -69,7 +69,7 @@ body {
     background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
     filter: drop-shadow(0 0 6px #699bff);
     animation: tail 3000ms ease-in-out 1, shooting2 3000ms ease-in-out 1;
-    animation-delay: 1.2s;
+    animation-delay: 2s;
 }
 
 .star2::after,
@@ -98,8 +98,8 @@ body {
     height: 2px;
     background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
     filter: drop-shadow(0 0 6px #699bff);
-    animation: tail 3000ms ease-in-out 1, shooting2 3000ms ease-in-out 1;
-    animation-delay: 2.1s;
+    animation: tail 3000ms ease-in-out 1, shooting3 3000ms ease-in-out 1;
+    animation-delay: 3.5s;
 }
 
 .star3::after,
@@ -128,8 +128,8 @@ body {
     height: 2px;
     background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
     filter: drop-shadow(0 0 6px #699bff);
-    animation: tail 3000ms ease-in-out 1, shooting2 3000ms ease-in-out 1;
-    animation-delay: 3.5s;
+    animation: tail 3000ms ease-in-out 1, shooting4 3000ms ease-in-out 1;
+    animation-delay: 5s;
 }
 
 .star4::after,
@@ -186,7 +186,7 @@ body {
     }
 
     100% {
-        transform: translateX(900px);
+        transform: translateX(1200px);
     }
 }
 
@@ -196,6 +196,26 @@ body {
     }
 
     100% {
-        transform: translateX(1230px);
+        transform: translateX(1330px);
+    }
+}
+
+@keyframes shooting3 {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(1100px);
+    }
+}
+
+@keyframes shooting4 {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(1400px);
     }
 }
