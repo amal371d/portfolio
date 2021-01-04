@@ -10,8 +10,39 @@ main {
     line-height: 1.5;
 }
 
+ul {
+    line-height: 2;
+}
+
+#om_mig .sectionwrapper .firstsection img {
+    padding: 10px 0px 10px 0px;
+}
+
+#om_mig .sectionwrapper .secondsection h2 {
+    margin-bottom: -8px;
+}
+
 @media (min-width:800px) {
     #om_mig .sectionwrapper {
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    #om_mig .sectionwrapper .firstsection img {
+        padding-bottom: 20px;
+    }
+
+    #om_mig .sectionwrapper .secondsection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 12px;
+    }
+
+    #om_mig .sectionwrapper .secondsection .col1 {
+        grid-column: 1/2;
+    }
+
+    #om_mig .sectionwrapper .secondsection .col2 {
+        grid-column: 2/3;
+    }
+}
