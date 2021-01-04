@@ -2,11 +2,12 @@ p {
     line-height: 1.5;
 }
 
+
 @media (min-width:900px) {
     #opgave_04_05_01 .sectionwrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 10px;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 15px;
     }
 
     #opgave_04_05_01 .sectionwrapper p {
@@ -14,6 +15,12 @@ p {
     }
 
     #opgave_04_05_01 .sectionwrapper img {
-        grid-column: 2/3;
+        grid-column: 2/4;
+        padding-top: 25px;
+    }
+
+    #opgave_04_01_05 .sectionwrapper img {
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }

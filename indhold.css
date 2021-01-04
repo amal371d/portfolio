@@ -15,4 +15,18 @@ p {
     #opgave_05_03_01 .sectionwrapper img {
         grid-column: 2/3;
     }
+
+    #opgave_05_01_01 .sectionwrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    #opgave_05_01_01 .sectionwrapper .video {
+        grid-column: 1/2;
+    }
+
+    #opgave_05_01_01 .sectionwrapper .tekst {
+        grid-column: 2/3;
+    }
 }
