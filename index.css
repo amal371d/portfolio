@@ -28,9 +28,11 @@ body {
     padding-top: 25px;
 }
 
+#menu li {
+    padding-bottom: 10px;
+}
+
 @media (min-width:900px) {
-
-
 
     /*----star----*/
 

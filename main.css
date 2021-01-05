@@ -8,23 +8,81 @@ body {
     width: 100%;
 }
 
-nav {
-    text-align: end;
-    font-family: 'Jura', sans-serif;
-    padding-top: 50px;
-    padding-left: 35px;
-    padding-right: 20px;
-}
-
 main {
     padding: 40px 20px 80px 20px;
     position: relative;
     width: 100%;
+    max-width: 1100px;
+    display: block;
+    margin: auto;
 }
+
+img {
+    width: 100%;
+}
+
+/*header og nav*/
+
+header {
+    text-align: end;
+    padding-top: 25px;
+    padding-left: 35px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+}
+
+#menu li {
+    font-family: 'Jura', sans-serif;
+}
+
+#menuknap {
+    color: white;
+    display: inline-block;
+    height: 40px;
+    cursor: pointer;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+.hide {
+    opacity: 0;
+}
+
+/*burger*/
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-9px, -9px);
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+    margin: 9px 0;
+}
+
+/*tekst og fonte*/
 
 h1 {
     font-family: 'Jura', sans-serif;
     text-align: center;
+    font-size: 1.4rem;
 }
 
 main h1 {
@@ -38,20 +96,24 @@ ul {
     font-family: 'Roboto', sans-serif;
 }
 
-img {
-    width: 100%;
+h2 {
+    font-size: 1.15rem;
 }
 
-main {
-    max-width: 1100px;
-    display: block;
-    margin: auto;
+h3 {
+    font-size: 1rem;
 }
 
-a {
+p {
+    font-size: 0.85rem;
+}
+
+/*link*/
+
+#menu li {
     padding-left: 22px;
     padding-right: 22px;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 
 a:link {
@@ -82,17 +144,15 @@ a:active {
 }
 
 #logo img {
-    height: 75px;
+    height: 55px;
+    object-fit: cover;
 }
 
-.navigation {
+#navigation {
     background-color: #050F23;
     height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
-    padding-bottom: 50px;
+
 }
 
 /*footer*/
@@ -118,16 +178,95 @@ footer p {
     transform: translateY(-10px);
 }
 
+@media (min-width:600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1.05rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    #logo img {
+        height: 65px;
+        object-fit: cover;
+    }
+
+    a {
+        font-size: 1.35rem;
+    }
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hide {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline;
+    }
+}
+
+@media (min-width:750px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+
+    a {
+        font-size: 1.4rem;
+    }
+}
+
 @media (min-width:900px) {
     footer p {
         font-size: 0.85rem;
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     h2 {
         font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.15rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #logo img {
+        height: 75px;
+        object-fit: cover;
+    }
+
+    a {
+        font-size: 1.5rem;
     }
 }
