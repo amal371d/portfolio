@@ -22,17 +22,54 @@ body {
 }
 
 /*----logo----*/
+/*
 #logo {
     padding-left: 41px;
     position: fixed;
     padding-top: 25px;
 }
+*/
+
+/*
+#logo {
+    width: 200px;
+}
+
+#logo img {
+    margin-top: -25px;
+    margin-left: -95px;
+}
+*/
 
 #menu li {
     padding-bottom: 10px;
 }
 
+@media (min-width:700px) {
+/*
+    #logo {
+        width: 200px;
+    }
+
+    #logo img {
+        margin-top: -25px;
+        margin-left: -95px;
+    }
+*/
+}
+
 @media (min-width:900px) {
+
+/*
+    #logo {
+        width: 200px;
+    }
+
+    #logo img {
+        margin-top: -25px;
+        margin-left: -95px;
+    }
+*/
 
     /*----star----*/
 

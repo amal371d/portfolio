@@ -116,6 +116,10 @@ p {
     font-size: 1.4rem;
 }
 
+h1 {
+    font-weight: 700;
+}
+
 a:link {
     color: white;
     text-decoration: none;
@@ -136,17 +140,27 @@ a:active {
 
 /*logo*/
 
+/*
 #logo {
     display: block;
+
     padding-left: 41px;
     position: fixed;
     padding-top: 25px;
+
+    width: 28vw;
+    object-fit: cover;
+
 }
+*/
+
+/*
 
 #logo img {
     height: 55px;
     object-fit: cover;
 }
+*/
 
 #navigation {
     background-color: #050F23;
@@ -195,11 +209,6 @@ footer p {
         font-size: 0.9rem;
     }
 
-    #logo img {
-        height: 65px;
-        object-fit: cover;
-    }
-
     a {
         font-size: 1.35rem;
     }
@@ -215,6 +224,14 @@ footer p {
 
     #menu li {
         display: inline;
+    }
+
+    header {
+        text-align: end;
+        padding-top: 25px;
+        padding-left: 35px;
+        padding-right: 20px;
+        padding-bottom: 25px;
     }
 }
 
@@ -261,12 +278,7 @@ footer p {
         font-size: 1rem;
     }
 
-    #logo img {
-        height: 75px;
-        object-fit: cover;
-    }
-
     a {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 }
