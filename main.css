@@ -26,7 +26,6 @@ img {
 header {
     text-align: end;
     padding-top: 25px;
-    padding-left: 35px;
     padding-right: 20px;
     padding-bottom: 25px;
 }
@@ -48,6 +47,7 @@ header {
 
 .hide {
     opacity: 0;
+    transform: translateY(-10px);
 }
 
 /*burger*/
@@ -137,6 +137,7 @@ a:hover {
 a:active {
     font-weight: 700;
 }
+
 
 /*logo*/
 
@@ -275,7 +276,7 @@ footer p {
     }
 
     p {
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
 
     a {

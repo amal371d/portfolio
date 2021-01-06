@@ -2,6 +2,30 @@ p {
     line-height: 1.5;
 }
 
+nav ul {
+    position: absolute;
+    z-index: 1;
+    background-color: #050F23;
+    width: 100%;
+    height: 15vh;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media (min-width:600px) {
+    nav ul {
+        position: relative;
+        z-index: 1;
+        background-color: #050F23;
+        width: 100%;
+        height: 4.5vh;
+        line-height: 1.5;
+        padding: 0 auto;
+        margin: 0 auto;
+    }
+}
+
 @media (min-width:900px) {
     #opgave_05_03_01 .sectionwrapper {
         display: grid;
