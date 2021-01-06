@@ -30,6 +30,7 @@ p {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
+        margin-top: -42px;
     }
 
     #secondsection .sectionwrapper p {
@@ -44,19 +45,4 @@ p {
         grid-column: 2/3;
     }
 
-    #thirdsection .sectionwrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 10px;
-    }
-
-    #thirdsection .sectionwrapper p {
-        grid-column: 1/3;
-    }
-
-    #thirdsection .sectionwrapper img {
-        grid-column: 3/4;
-        object-fit: cover;
-        width: 330px;
-    }
 }
