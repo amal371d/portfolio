@@ -9,6 +9,10 @@ nav ul {
     margin: 0 auto;
 }
 
+p {
+    line-height: 1.5;
+}
+
 @media (min-width:600px) {
     nav ul {
         position: relative;
@@ -19,5 +23,19 @@ nav ul {
         line-height: 1.5;
         padding: 0 auto;
         margin: 0 auto;
+    }
+
+    #firstsection .sectionwrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    #firstsection .sectionwrapper p {
+        grid-column: 1/3;
+    }
+
+    #firstsection .sectionwrapper img {
+        grid-column: 3/4;
     }
 }

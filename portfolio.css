@@ -64,36 +64,15 @@ nav ul {
     opacity: 1;
 }
 
-.text1 {
-    background-color: #050F23;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.text2 {
-    background-color: #050F23;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.text3 {
-    background-color: #050F23;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-    font-family: 'Roboto', sans-serif;
-}
-
+.text1,
+.text2,
+.text3,
 .text4 {
     background-color: #050F23;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Play', sans-serif;
 }
 
 .middle_ux {
@@ -258,36 +237,13 @@ img {
         text-align: center;
     }
 
-    .text1 {
-        background-color: #050F23;
-        color: white;
-        font-size: 18px;
-        padding: 16px 40px;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    .text2 {
-        background-color: #050F23;
-        color: white;
-        font-size: 18px;
-        padding: 16px 40px;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    .text3 {
-        background-color: #050F23;
-        color: white;
-        font-size: 18px;
-        padding: 16px 40px;
-        font-family: 'Roboto', sans-serif;
-    }
-
+    .text1,
+    .text2,
+    .text3,
     .text4 {
         background-color: #050F23;
         color: white;
         font-size: 18px;
         padding: 16px 40px;
-        font-family: 'Roboto', sans-serif;
     }
-
 }

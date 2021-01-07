@@ -91,9 +91,8 @@ main h1 {
 
 p,
 h2,
-h3,
-ul {
-    font-family: 'Roboto', sans-serif;
+h3 {
+    font-family: 'Play', sans-serif;
 }
 
 h2 {
@@ -184,7 +183,7 @@ footer {
 footer p {
     color: white;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Play', sans-serif;
     font-size: 0.75rem;
 }
 
@@ -230,7 +229,6 @@ footer p {
     header {
         text-align: end;
         padding-top: 25px;
-        padding-left: 35px;
         padding-right: 20px;
         padding-bottom: 25px;
     }

@@ -27,44 +27,30 @@ nav ul {
 }
 
 @media (min-width:900px) {
-    #opgave_04_05_01 .sectionwrapper {
+    #firstsection .sectionwrapper {
         display: grid;
         grid-template-columns: 1fr 2fr;
         column-gap: 15px;
     }
 
-    #opgave_04_05_01 .sectionwrapper p {
+    #firstsection .sectionwrapper p {
         grid-column: 1/2;
     }
 
-    #opgave_04_05_01 .sectionwrapper img {
+    #firstsection .sectionwrapper img {
         grid-column: 2/4;
         padding-top: 25px;
     }
 
-    #opgave_04_01_05 .sectionwrapper img {
+    #firstsection .sectionwrapper img {
         padding-left: 50px;
         padding-right: 50px;
     }
 
-    #opgave_04_03_04 .sectionwrapper {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        column-gap: 10px;
-    }
-
-    #opgave_04_03_04 .sectionwrapper p {
-        grid-column: 1/2;
-    }
-
-    #opgave_04_03_04 .sectionwrapper pimg {
-        grid-column: 2/3;
-    }
-
-    /*
-    #opgave_04_03_04 .sectionwrapper img {
+    #secondsection .sectionwrapper img {
         padding-left: 50px;
         padding-right: 50px;
     }
-*/
+
+
 }

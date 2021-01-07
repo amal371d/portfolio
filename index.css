@@ -21,6 +21,14 @@ body {
     position: relative;
 }
 
+nav {
+    margin-top: -12.3px;
+}
+
+#menuknap {
+    padding-top: 10px;
+}
+
 /*----logo----*/
 /*
 #logo {
@@ -41,12 +49,8 @@ body {
 }
 */
 
-#menu li {
-    padding-bottom: 10px;
-}
-
 @media (min-width:700px) {
-/*
+    /*
     #logo {
         width: 200px;
     }
@@ -60,7 +64,7 @@ body {
 
 @media (min-width:900px) {
 
-/*
+    /*
     #logo {
         width: 200px;
     }
