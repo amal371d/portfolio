@@ -13,6 +13,13 @@ nav ul {
     margin: 0 auto;
 }
 
+video {
+    width: 550px;
+    object-fit: cover;
+    padding-top: 10px;
+
+}
+
 @media (min-width:600px) {
     nav ul {
         position: relative;
@@ -27,30 +34,41 @@ nav ul {
 }
 
 @media (min-width:900px) {
-    #opgave_05_03_01 .sectionwrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    #opgave_05_03_01 .sectionwrapper p {
-        grid-column: 1/2;
-    }
-
-    #opgave_05_03_01 .sectionwrapper img {
-        grid-column: 2/3;
-    }
-
-    #opgave_05_01_01 .sectionwrapper {
+    #firstsection .sectionwrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
     }
 
-    #opgave_05_01_01 .sectionwrapper .video {
+    #firstsection .sectionwrapper .tekst1 {
         grid-column: 1/2;
     }
 
-    #opgave_05_01_01 .sectionwrapper .tekst {
+    #firstsection .sectionwrapper .billede {
         grid-column: 2/3;
+        padding-top: 30px;
+    }
+
+    #firstsection .sectionwrapper .video {
+        grid-column: 1/2;
+    }
+
+    #firstsection .sectionwrapper .tekst2 {
+        grid-column: 2/3;
+    }
+
+    #secondsection .sectionwrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+    }
+
+    #secondsection .sectionwrapper video {
+        grid-column: 1/2;
+    }
+
+    #secondsection .sectionwrapper p {
+        grid-column: 2/3;
+        margin-top: -2px;
     }
 }

@@ -26,13 +26,13 @@ p {
     grid-template-columns: auto;
 }
 
-#firstsection #top_billede {
-    padding: 20px 0px 20px 0px;
+#firstsection .top_billede {
+    padding: 10px 0px;
 }
 
 #firstsection .sectionwrapper img {
     object-fit: cover;
-    width: 450px;
+    width: 400px;
     padding-bottom: 35px;
     padding-top: 10px;
 }
