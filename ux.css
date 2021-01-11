@@ -15,6 +15,20 @@ p {
 
 .button {
     width: 170px;
+    padding-top: 15px;
+}
+
+#thirdsection img {
+    object-fit: cover;
+    width: 150px;
+}
+
+/*class*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 @media (min-width:600px) {
@@ -40,10 +54,15 @@ p {
 
 @media (min-width:850px) {
 
+    .button {
+        padding-top: 0px;
+    }
+
     #firstsection .sectionwrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 15px;
+        margin-top: -12px;
     }
 
     #firstsection .sectionwrapper .tekst {
@@ -52,5 +71,34 @@ p {
 
     #firstsection .sectionwrapper .billede {
         grid-column: 2/3;
+        padding-top: 10px;
+    }
+
+    #secondsection .sectionwrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 15px;
+    }
+
+    #secondsection .sectionwrapper p {
+        grid-column: 1/4;
+    }
+
+    #secondsection .sectionwrapper img {
+        grid-column: 4/5;
+    }
+
+    #thirdsection .sectionwrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    #thirdsection .sectionwrapper p {
+        grid-column: 2/6;
+    }
+
+    #thirdsection .sectionwrapper img {
+        grid-column: 1/2;
     }
 }

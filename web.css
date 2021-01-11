@@ -46,7 +46,7 @@ nav ul {
     #firstsection .sectionwrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 8px;
+        grid-gap: 15px;
     }
 
     #firstsection .sectionwrapper p {
@@ -55,7 +55,6 @@ nav ul {
 
     #firstsection .sectionwrapper img {
         grid-column: 2/3;
-        padding-top: 25px;
     }
 
     #secondsection .sectionwrapper {

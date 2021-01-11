@@ -37,7 +37,7 @@ video {
     #firstsection .sectionwrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 10px;
+        grid-gap: 12px;
     }
 
     #firstsection .sectionwrapper .tekst1 {
@@ -70,5 +70,9 @@ video {
     #secondsection .sectionwrapper p {
         grid-column: 2/3;
         margin-top: -2px;
+    }
+
+    #secondsection {
+        padding-top: 35px;
     }
 }
