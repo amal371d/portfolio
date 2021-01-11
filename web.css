@@ -13,8 +13,8 @@ p {
 #youtube {
     color: black;
     text-decoration: underline;
-    font-size: 0.8rem;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-family: 'Play', sans-serif;
     font-weight: 600;
 }
 
@@ -46,7 +46,7 @@ nav ul {
     #firstsection .sectionwrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 12px;
+        grid-gap: 8px;
     }
 
     #firstsection .sectionwrapper p {
@@ -55,7 +55,7 @@ nav ul {
 
     #firstsection .sectionwrapper img {
         grid-column: 2/3;
-        padding-top: 22px;
+        padding-top: 25px;
     }
 
     #secondsection .sectionwrapper {
@@ -80,7 +80,7 @@ nav ul {
     #thirdsection .sectionwrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 10px;
+        grid-gap: 15px;
     }
 
     #thirdsection .sectionwrapper p {

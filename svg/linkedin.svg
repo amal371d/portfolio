@@ -1,5 +1,5 @@
-<svg id="button.social" xmlns="http://www.w3.org/2000/svg" width="120" height="38" viewBox="0 0 120 38">
-  <rect id="Rectangle_94" data-name="Rectangle 94" width="118.5" height="37" rx="4" transform="translate(0)" fill="#36587d"/>
-  <text id="LinkedIn" transform="translate(40.5 22)" fill="#fff" font-size="13" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="0" y="0">LinkedIn</tspan></text>
-  <path id="linkedin-2" data-name="linkedin" d="M11.725,32H.9a.906.906,0,0,0-.9.91V43.717a.906.906,0,0,0,.9.91H11.725a.908.908,0,0,0,.9-.91V32.91A.908.908,0,0,0,11.725,32ZM3.816,42.824H1.945V36.8H3.819v6.026Zm-.936-6.849a1.085,1.085,0,1,1,1.085-1.085A1.086,1.086,0,0,1,2.881,35.974Zm7.951,6.849H8.96V39.892c0-.7-.014-1.6-.972-1.6-.975,0-1.125.761-1.125,1.547v2.982H4.992V36.8h1.8v.823h.025a1.971,1.971,0,0,1,1.773-.972c1.894,0,2.246,1.249,2.246,2.872Z" transform="translate(20 -20)" fill="rgba(255,255,255,0.6)"/>
+<svg id="button.social" xmlns="http://www.w3.org/2000/svg" width="122.5" height="37" viewBox="0 0 122.5 37">
+  <rect id="Rectangle_94" data-name="Rectangle 94" width="122.5" height="37" rx="4" transform="translate(0)" fill="#36587d"/>
+  <text id="LinkedIn" transform="translate(41.5 22)" fill="#fff" font-size="14" font-family="Play-Regular, Play"><tspan x="0" y="0">LinkedIn</tspan></text>
+  <path id="linkedin-2" data-name="linkedin" d="M11.725,32H.9a.906.906,0,0,0-.9.91V43.717a.906.906,0,0,0,.9.91H11.725a.908.908,0,0,0,.9-.91V32.91A.908.908,0,0,0,11.725,32ZM3.816,42.824H1.945V36.8H3.819v6.026Zm-.936-6.849a1.085,1.085,0,1,1,1.085-1.085A1.086,1.086,0,0,1,2.881,35.974Zm7.951,6.849H8.96V39.892c0-.7-.014-1.6-.972-1.6-.975,0-1.125.761-1.125,1.547v2.982H4.992V36.8h1.8v.823h.025a1.971,1.971,0,0,1,1.773-.972c1.894,0,2.246,1.249,2.246,2.872Z" transform="translate(20 -22)" fill="rgba(255,255,255,0.6)"/>
 </svg>

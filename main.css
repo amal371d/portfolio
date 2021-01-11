@@ -43,6 +43,8 @@ header {
 
 #menu {
     list-style-type: none;
+    transition: transform 0.4s;
+    transform-origin: top;
 }
 
 .hide {
@@ -137,36 +139,10 @@ a:active {
     font-weight: 700;
 }
 
-
-/*logo*/
-
-/*
-#logo {
-    display: block;
-
-    padding-left: 41px;
-    position: fixed;
-    padding-top: 25px;
-
-    width: 28vw;
-    object-fit: cover;
-
-}
-*/
-
-/*
-
-#logo img {
-    height: 55px;
-    object-fit: cover;
-}
-*/
-
 #navigation {
     background-color: #050F23;
     height: 50%;
     position: relative;
-
 }
 
 /*footer*/

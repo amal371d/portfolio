@@ -13,7 +13,12 @@ p {
     line-height: 1.5;
 }
 
+.button {
+    width: 170px;
+}
+
 @media (min-width:600px) {
+
     nav ul {
         position: relative;
         z-index: 1;
@@ -24,18 +29,28 @@ p {
         padding: 0 auto;
         margin: 0 auto;
     }
+}
+
+@media (min-width:700px) {
+
+    .button {
+        width: 200px;
+    }
+}
+
+@media (min-width:850px) {
 
     #firstsection .sectionwrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
     }
 
-    #firstsection .sectionwrapper p {
-        grid-column: 1/3;
+    #firstsection .sectionwrapper .tekst {
+        grid-column: 1/2;
     }
 
-    #firstsection .sectionwrapper img {
-        grid-column: 3/4;
+    #firstsection .sectionwrapper .billede {
+        grid-column: 2/3;
     }
 }
