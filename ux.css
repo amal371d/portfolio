@@ -20,7 +20,7 @@ p {
 
 #thirdsection img {
     object-fit: cover;
-    width: 150px;
+    width: 260px;
 }
 
 /*class*/
@@ -81,11 +81,11 @@ p {
     }
 
     #secondsection .sectionwrapper p {
-        grid-column: 1/4;
+        grid-column: 2/5;
     }
 
     #secondsection .sectionwrapper img {
-        grid-column: 4/5;
+        grid-column: 1/2;
     }
 
     #thirdsection .sectionwrapper {
@@ -95,10 +95,11 @@ p {
     }
 
     #thirdsection .sectionwrapper p {
-        grid-column: 2/6;
+        grid-column: 1/5;
     }
 
     #thirdsection .sectionwrapper img {
-        grid-column: 1/2;
+        grid-column: 5/6;
+        padding-top: 20px;
     }
 }

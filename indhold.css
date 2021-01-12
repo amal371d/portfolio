@@ -13,11 +13,25 @@ nav ul {
     margin: 0 auto;
 }
 
-video {
-    width: 550px;
+
+#firstsection video {
+    width: 100%;
     object-fit: cover;
     padding-top: 10px;
+}
 
+#secondsection .video {
+    position: relative;
+    height: 0;
+    padding-top: calc((9/16)*100%);
+}
+
+#secondsection iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 @media (min-width:600px) {
@@ -63,13 +77,13 @@ video {
         grid-gap: 15px;
     }
 
-    #secondsection .sectionwrapper video {
+    #secondsection .sectionwrapper .video {
         grid-column: 1/2;
     }
 
-    #secondsection .sectionwrapper p {
+    #secondsection .sectionwrapper .tekst {
         grid-column: 2/3;
-        margin-top: -2px;
+        margin-top: -20px;
     }
 
     #secondsection {
