@@ -32,6 +32,10 @@ p {
     padding: 10px 0px;
 }
 
+#firstsection .sectionwrapper .billede {
+    padding-top: 8px;
+}
+
 /*second section*/
 
 #secondsection .sectionwrapper h2 {
