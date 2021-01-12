@@ -21,22 +21,25 @@ nav ul {
         width: 100%;
         height: 4.5vh;
         line-height: 1.5;
-        padding: 0 auto;
+        padding: 0;
         margin: 0 auto;
     }
 }
 
 @media (min-width:900px) {
+
+    /*first section*/
+
     #firstsection .sectionwrapper {
         display: grid;
         grid-template-columns: 1fr 2fr;
     }
 
-    #firstsection .sectionwrapper p {
+    #firstsection .sectionwrapper .tekst {
         grid-column: 1/2;
     }
 
-    #firstsection .sectionwrapper img {
+    #firstsection .sectionwrapper .billede {
         grid-column: 2/4;
         padding-top: 10px;
     }
@@ -46,10 +49,10 @@ nav ul {
         padding-right: 50px;
     }
 
+    /*second section*/
+
     #secondsection .sectionwrapper img {
         padding-left: 50px;
         padding-right: 50px;
     }
-
-
 }

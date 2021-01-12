@@ -26,16 +26,13 @@ p {
     grid-template-columns: auto;
 }
 
+/*first section*/
+
 #firstsection .top_billede {
     padding: 10px 0px;
 }
 
-#firstsection .sectionwrapper img {
-    object-fit: cover;
-    width: 400px;
-    padding-bottom: 35px;
-    padding-top: 10px;
-}
+/*second section*/
 
 #secondsection .sectionwrapper h2 {
     margin-bottom: 22px;
@@ -44,6 +41,8 @@ p {
 #secondsection .sectionwrapper .col1 {
     margin-bottom: 22px;
 }
+
+/*third section*/
 
 #thirdsection .sectionwrapper img {
     width: 150px;
@@ -58,8 +57,12 @@ p {
     padding-bottom: 15px;
 }
 
-secondsection .sectionwrapper .col1 {
-    padding-bottom: 10px;
+#thirdsection .kontakt {
+    padding-top: 1px;
+}
+
+#thirdsection .social {
+    padding-top: 2px;
 }
 
 /*class*/
@@ -73,11 +76,6 @@ secondsection .sectionwrapper .col1 {
 /*media*/
 
 @media (min-width:600px) {
-    #thirdsection .sectionwrapper .social {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding-right: 20px;
-    }
 
     nav ul {
         position: relative;
@@ -86,10 +84,17 @@ secondsection .sectionwrapper .col1 {
         width: 100%;
         height: 4.5vh;
         line-height: 1.5;
-        padding: 0 auto;
+        padding: 0;
         margin: 0 auto;
     }
 
+    /*third section*/
+
+    #thirdsection .sectionwrapper .social_col {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-right: 20px;
+    }
 }
 
 @media (min-width:800px) {
@@ -98,9 +103,13 @@ secondsection .sectionwrapper .col1 {
         padding-right: 20px;
     }
 
+    /*first section*/
+
     #firstsection #top_billede {
         padding-bottom: 20px;
     }
+
+    /*second section*/
 
     #secondsection .sectionwrapper {
         display: grid;
@@ -124,37 +133,64 @@ secondsection .sectionwrapper .col1 {
         margin-bottom: 0px;
     }
 
-    #thirdsection .sectionwrapper .social {
+    /*third section*/
+
+    #thirdsection .sectionwrapper .social_col {
         padding-right: 160px;
     }
 }
 
 @media (min-width:875px) {
-    #thirdsection .sectionwrapper .social {
+
+    /*third section*/
+
+    #thirdsection .sectionwrapper .social_col {
         padding-right: 300px;
     }
 }
 
 @media (min-width:950px) {
-    #thirdsection .sectionwrapper .social {
-        padding-right: 400px;
-    }
+
+    /*first section*/
 
     #firstsection .sectionwrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-gap: 15px;
     }
 
-    #firstsection .sectionwrapper #tekst {
-        grid-column: 1/2;
+    #firstsection .sectionwrapper .tekst1 {
+        grid-column: 1/3;
+        grid-row: 1/2;
     }
 
-    #firstsection .sectionwrapper #billede {
+    #firstsection .sectionwrapper .tekst2 {
+        grid-column: 1/2;
+        grid-row: 2/4;
+        margin-top: -28px;
+    }
+
+    #firstsection .sectionwrapper .billede {
         grid-column: 2/3;
+        grid-row: 2/4;
+        margin-top: -28px;
     }
 
     #firstsection .sectionwrapper img {
-        padding-top: 15px;
+        padding-top: 16px;
+    }
+
+    #firstsection .sectionwrapper img {
+        object-fit: cover;
+        width: 400px;
+        padding-bottom: 35px;
+        padding-top: 10px;
+    }
+
+    /*third section*/
+
+    #thirdsection .sectionwrapper .social_col {
+        padding-right: 400px;
     }
 }

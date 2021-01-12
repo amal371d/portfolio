@@ -85,10 +85,8 @@ h1 {
     font-family: 'Jura', sans-serif;
     text-align: center;
     font-size: 1.4rem;
-}
-
-main h1 {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    font-weight: 700;
 }
 
 p,
